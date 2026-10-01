@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Information</string>
+    <string name="full_name">Толкачев Иван</string>
+    <string name="title">Студент ФИТ-241</string>
+    <string name="phone_number">+7 (999) 999-99-99</string>
+    <string name="social_handle">\@andreevich404</string>
+    <string name="email">ivan_tolkachev.business@mail.ru</string>
+</resources>
