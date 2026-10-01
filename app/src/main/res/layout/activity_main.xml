@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="text"
+        android:text="Sample Text" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/button_black_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="ЧЕРНЫЙ ТЕКСТ"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_red_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="КРАСНЫЙ ТЕКСТ"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_size_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="РАЗМЕР - 8SP"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_size_24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="РАЗМЕР - 24SP"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_white_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="БЕЛЫЙ ФОН"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_yellow_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="ЖЕЛТЫЙ ФОН"
+            android:textColor="@color/white" />
+
+    </GridLayout>
+
+</LinearLayout>
