@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ArtSpaceApp</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="art_1_title">Impression, Sunrise</string>
+    <string name="art_1_artist">Claude Monet</string>
+    <string name="art_1_year">1872</string>
+    <string name="art_2_title">The Milkmaid</string>
+    <string name="art_2_artist">Johannes Vermeer</string>
+    <string name="art_2_year">1660</string>
+    <string name="art_3_title">Mona Lisa</string>
+    <string name="art_3_artist">Leonardo da Vinci</string>
+    <string name="art_3_year">1506</string>
+    <string name="art_4_title">The Great Wave off Kanagawa</string>
+    <string name="art_4_artist">Katsushika Hokusai</string>
+    <string name="art_4_year">1831</string>
+    <string name="art_5_title">The Starry Night</string>
+    <string name="art_5_artist">Vincent van Gogh</string>
+    <string name="art_5_year">1889</string>
+</resources>
