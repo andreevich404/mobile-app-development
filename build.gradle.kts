@@ -1,31 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.4.10"
-    application
-}
-
-group = "org.example"
-version = "1.0-SNAPSHOT"
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testImplementation(kotlin("test"))
-}
-
-kotlin {
-    jvmToolchain(25)
-}
-
-application {
-    mainClass.set("org.example.MainKt")
-}
-
-tasks.named<JavaExec>("run") {
-    standardInput = System.`in`
-}
-
-tasks.test {
-    useJUnitPlatform()
+    id("com.android.application") version "8.8.0" apply false
+    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
+    id("com.google.devtools.ksp") version "2.1.0-1.0.29" apply false
 }
