@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rick and Morty</string>
+    <string name="characters_title">Персонажи</string>
+    <string name="character_title">Персонаж</string>
+    <string name="back_button">Назад</string>
+    <string name="loading_failed">Не удалось загрузить данные</string>
+    <string name="retry">Повторить</string>
+    <string name="loading">Загрузка</string>
+    <string name="character_photo">Фото персонажа %1$s</string>
+    <string name="label_status">Статус</string>
+    <string name="label_species">Вид</string>
+    <string name="label_type">Тип</string>
+    <string name="label_gender">Пол</string>
+    <string name="label_origin">Происхождение</string>
+    <string name="label_location">Последнее местоположение</string>
+    <string name="label_episodes">Серии (%1$d)</string>
+    <string name="no_episodes">Нет серий</string>
+</resources>
